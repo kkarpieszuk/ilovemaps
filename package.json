@@ -1,16 +1,13 @@
 {
-  "name": "ilovemaps",
+  "name": "ilmaps-cgb-guten-block",
   "version": "1.0.0",
-  "description": "",
-  "main": "build/index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "wp-scripts build",
-    "start": "wp-scripts start"
+    "start": "cgb-scripts start",
+    "build": "cgb-scripts build",
+    "eject": "cgb-scripts eject"
   },
-  "author": "Konrad Karpieszuk",
-  "license": "GPL-2.0-only",
-  "devDependencies": {
-    "@wordpress/scripts": "10.0.0"
+  "dependencies": {
+    "cgb-scripts": "1.23.1"
   }
 }
